@@ -1,0 +1,102 @@
+
+/* Class = "UILabel"; text = "Show only team members"; ObjectID = "3AL-VI-YDG"; */
+"3AL-VI-YDG.text" = "チームメンバーだけ表示";
+
+/* Class = "UILabel"; text = "Search History"; ObjectID = "4yb-Xn-VtP"; */
+"4yb-Xn-VtP.text" = "検索履歴";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Efx-jU-VtR"; */
+"Efx-jU-VtR.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Find people"; ObjectID = "GGN-4J-iJM"; */
+"GGN-4J-iJM.title" = "人を探す";
+
+/* Class = "UILabel"; text = "Temporarily leaving"; ObjectID = "H9f-Ud-cwW"; */
+"H9f-Ud-cwW.text" = "一時退席中";
+
+/* Class = "UILabel"; text = "Position"; ObjectID = "Hhl-r8-wGS"; */
+"Hhl-r8-wGS.text" = "役職";
+
+/* Class = "UIBarButtonItem"; title = "Apply"; ObjectID = "I0A-RP-pBI"; */
+"I0A-RP-pBI.title" = "適用";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "PQe-LX-lPH"; */
+"PQe-LX-lPH.title" = " ";
+
+/* Class = "UITableViewSection"; headerTitle = "Place"; ObjectID = "R9X-aD-5Gc"; */
+"R9X-aD-5Gc.headerTitle" = "場所";
+
+/* Class = "UINavigationItem"; title = "Sort Options"; ObjectID = "Shi-nL-Ojg"; */
+"Shi-nL-Ojg.title" = "並び順";
+
+/* Class = "UILabel"; text = "Company Name"; ObjectID = "TSk-HK-nue"; */
+"TSk-HK-nue.text" = "会社名";
+
+/* Class = "UINavigationItem"; title = "Refine By"; ObjectID = "W6t-Hj-89h"; */
+"W6t-Hj-89h.title" = "絞り込み";
+
+/* Class = "UITableViewSection"; headerTitle = "status"; ObjectID = "X7Z-Vd-TMa"; */
+"X7Z-Vd-TMa.headerTitle" = "ステータス";
+
+/* Class = "UILabel"; text = "Affiliation"; ObjectID = "XSO-ci-nzC"; */
+"XSO-ci-nzC.text" = "所属";
+
+/* Class = "UINavigationItem"; title = "Favourite"; ObjectID = "Yec-Gs-6tH"; */
+"Yec-Gs-6tH.title" = "お気に入り";
+
+/* Class = "UILabel"; text = "Work end"; ObjectID = "ZkX-yt-jYt"; */
+"ZkX-yt-jYt.text" = "業務終了";
+
+/* Class = "UILabel"; text = "Skill"; ObjectID = "b8o-ot-HGG"; */
+"b8o-ot-HGG.text" = "スキル";
+
+/* Class = "UILabel"; text = "Good Match"; ObjectID = "F2K-bs-o9H"; */
+"F2K-bs-o9H.text" = "Good Match";
+
+/* Class = "UILabel"; text = "Ok Match"; ObjectID = "xD2-Xg-bSZ"; */
+"xD2-Xg-bSZ.text" = "Ok Match";
+
+/* Class = "UILabel"; text = "Discover"; ObjectID = "DqK-EX-IRs"; */
+"DqK-EX-IRs.text" = "Discover";
+
+
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "dKA-8O-YYj"; */
+"dKA-8O-YYj.title" = "適用";
+
+/* Class = "UILabel"; text = "Display only in company"; ObjectID = "foJ-4n-lDC"; */
+"foJ-4n-lDC.text" = "社内だけ表示する";
+
+/* Class = "UILabel"; text = "Personal Match"; ObjectID = "71W-Hn-urz"; */
+"71W-Hn-urz.text" = "パーソナルマッチング";
+
+/* Class = "UITableViewSection"; headerTitle = "Basic information"; ObjectID = "fqj-Jc-Szu"; */
+"fqj-Jc-Szu.headerTitle" = "基本情報";
+
+/* Class = "UILabel"; text = "Third place office"; ObjectID = "maG-pW-aHZ"; */
+"maG-pW-aHZ.text" = "サードプレイスオフィス";
+
+/* Class = "UILabel"; text = "Can Contact"; ObjectID = "oaL-8S-gY9"; */
+"oaL-8S-gY9.text" = "連絡可能";
+
+/* Class = "UITextField"; placeholder = "Please enter keywords"; ObjectID = "rvP-WE-QbU"; */
+"rvP-WE-QbU.placeholder" = "キーワードを入力してください";
+
+/* Class = "UILabel"; text = "Busy"; ObjectID = "tnE-fk-7Yz"; */
+"tnE-fk-7Yz.text" = "取り込み中";
+
+/* Class = "UINavigationItem"; title = "Search History"; ObjectID = "yzB-y6-4R4"; */
+"yzB-y6-4R4.title" = "検索履歴";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "zYT-lb-gZ0"; */
+"zYT-lb-gZ0.title" = " ";
+
+/* Class = "UITableViewSection"; headerTitle = "Search by Keyword"; ObjectID = "zgm-ul-KJB"; */
+"zgm-ul-KJB.headerTitle" = "キーワードで検索";
+
+/* Class = "UITabBarItem"; title = "People"; ObjectID = "fpj-GF-Bd6"; */
+"fpj-GF-Bd6.title" = "人を探す";
+
+/* Class = "UITabBarItem"; title = "People"; ObjectID = "lkV-l6-LDm"; */
+"lkV-l6-LDm.title" = "人を探す";
+

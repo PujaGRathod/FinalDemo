@@ -1,0 +1,15 @@
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "AL7-g2-cUS"; */
+"AL7-g2-cUS.title" = "完了";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "J6k-rx-DYa"; */
+"J6k-rx-DYa.title" = "キャンセル";
+
+/* Class = "UINavigationItem"; title = "Other location information"; ObjectID = "LVV-bC-2EH"; */
+"LVV-bC-2EH.title" = "他の場所情報";
+
+/* Class = "UINavigationItem"; title = "Office location"; ObjectID = "hp4-MH-Lxd"; */
+"hp4-MH-Lxd.title" = "執務場所";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "w37-DN-Yhk"; */
+"w37-DN-Yhk.title" = "キャンセル";

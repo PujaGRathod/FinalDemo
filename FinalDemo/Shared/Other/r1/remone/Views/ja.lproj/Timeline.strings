@@ -1,0 +1,39 @@
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "1i6-8U-tHf"; */
+"1i6-8U-tHf.title" = "ホーム";
+
+/* Class = "UINavigationItem"; title = "It was nice"; ObjectID = "2Vx-zp-l4z"; */
+"2Vx-zp-l4z.title" = "いいねされました";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "3Z1-OA-Zyg"; */
+"3Z1-OA-Zyg.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Notice"; ObjectID = "Bow-l8-Brd"; */
+"Bow-l8-Brd.title" = "お知らせ";
+
+/* Class = "UINavigationItem"; title = "Status"; ObjectID = "Hef-Ih-SH1"; */
+"Hef-Ih-SH1.title" = "ステータス";
+
+/* Class = "UILabel"; text = "Let's follow the members of the company!"; ObjectID = "IyS-Ln-1jl"; */
+"IyS-Ln-1jl.text" = "社内のメンバーをフォローしましょう！";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "PaV-ig-Owd"; */
+"PaV-ig-Owd.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Vzj-ok-Ce7"; */
+"Vzj-ok-Ce7.title" = " ";
+
+/* Class = "UISegmentedControl"; atM-aU-8LM.segmentTitles[0] = "Notification"; ObjectID = "atM-aU-8LM"; */
+"atM-aU-8LM.segmentTitles[0]" = "通知";
+
+/* Class = "UISegmentedControl"; atM-aU-8LM.segmentTitles[1] = "Request"; ObjectID = "atM-aU-8LM"; */
+"atM-aU-8LM.segmentTitles[1]" = "リクエスト";
+
+/* Class = "UITextField"; placeholder = "write a comment"; ObjectID = "czp-5W-TK4"; */
+"czp-5W-TK4.placeholder" = "コメントを書く";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "ldP-wA-YuZ"; */
+"ldP-wA-YuZ.title" = "ホーム";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "yzv-f6-vLg"; */
+"yzv-f6-vLg.title" = " ";

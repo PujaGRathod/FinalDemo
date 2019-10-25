@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a4D-Um-n7G">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="0sw-ET-Vmj">
+            <objects>
+                <navigationController storyboardIdentifier="navDashboard" useStoryboardIdentifierAsRestorationIdentifier="YES" navigationBarHidden="YES" id="a4D-Um-n7G" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Qd-Rj-YAg">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="JCE-TJ-AwB" kind="relationship" relationship="rootViewController" id="gEu-ua-pnd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qAT-Mb-tOD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="702" y="462"/>
+        </scene>
+        <!--Dashboard TabbarVC-->
+        <scene sceneID="Tse-P2-KN3">
+            <objects>
+                <tabBarController storyboardIdentifier="DashboardTabbarVC" id="JCE-TJ-AwB" customClass="DashboardTabbarVC" customModule="remone" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bFF-Ib-eRI"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="N2N-Sx-GJj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oLa-Wl-dMz" kind="relationship" relationship="viewControllers" id="Pei-3N-Qog"/>
+                        <segue destination="AZQ-Za-HPb" kind="relationship" relationship="viewControllers" id="3DW-Hp-Aih"/>
+                        <segue destination="KhA-ue-4aG" kind="relationship" relationship="viewControllers" id="DN5-ue-VLa"/>
+                        <segue destination="g0G-y8-xFa" kind="relationship" relationship="viewControllers" id="LiA-xq-zq2"/>
+                        <segue destination="m0y-WF-zYv" kind="relationship" relationship="viewControllers" id="Nke-SX-zhE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xz4-Iy-mi5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1498" y="462"/>
+        </scene>
+        <!--navTimeline-->
+        <scene sceneID="q1w-ap-EN8">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="navTimeline" storyboardName="Timeline" referencedIdentifier="navTimeline" id="oLa-Wl-dMz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Stz-ed-v70"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XQY-Re-3xe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2113" y="149"/>
+        </scene>
+        <!--navTimestamp-->
+        <scene sceneID="88F-7U-9CD">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="navTimestamp" storyboardName="Timestamp" referencedIdentifier="navTimestamp" id="KhA-ue-4aG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="vnL-EP-mIZ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iWs-an-Pne" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2126" y="357"/>
+        </scene>
+        <!--navOfficeSearch-->
+        <scene sceneID="ozV-fT-UHF">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="navOfficeSearch" storyboardName="OfficeSearch" referencedIdentifier="navOfficeSearch" id="g0G-y8-xFa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Zvu-kK-6b2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XtU-kT-fGv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2135" y="540"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="EwF-fq-3Tv">
+            <objects>
+                <viewController id="RFX-ff-CLp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="crR-6Y-rjW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="f31-LU-VfX"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chat" image="iconChatUnselected" selectedImage="iconChatSelected" id="7jy-b3-x3B"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qVT-Hj-EQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4306" y="954"/>
+        </scene>
+        <!--UserProfile-->
+        <scene sceneID="l3s-31-0oa">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UserProfile" id="m0y-WF-zYv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="ADo-t2-zKF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mu4-Xj-vMg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2110" y="652"/>
+        </scene>
+        <!--navSearchPeople-->
+        <scene sceneID="3DD-xG-1AJ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="navSearchPeople" storyboardName="SearchPeople" referencedIdentifier="navSearchPeople" id="AZQ-Za-HPb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="dlz-eK-kyr"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pBw-SJ-RCD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2138" y="253"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconChatSelected" width="48" height="32"/>
+        <image name="iconChatUnselected" width="48" height="32"/>
+    </resources>
+</document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W5</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="OfficeProfileSectionHeaderView" id="iN0-l3-epB" customClass="OfficeProfileSectionHeaderView" customModule="remone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="349"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KOp-bq-poG">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="349"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N0d-MN-2aF">
+                            <rect key="frame" x="20" y="0.0" width="335" height="1"/>
+                            <color key="backgroundColor" red="0.92549019610000005" green="0.93725490199999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="V9Y-XA-sNy"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbM-Yr-d3Q">
+                            <rect key="frame" x="20" y="17" width="325" height="0.0"/>
+                            <fontDescription key="fontDescription" name="HiraginoSans-W5" family="Hiragino Sans" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMe-2M-b0q">
+                            <rect key="frame" x="355" y="17" width="0.0" height="0.0"/>
+                            <fontDescription key="fontDescription" name="HiraginoSans-W5" family="Hiragino Sans" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="GbM-Yr-d3Q" firstAttribute="top" secondItem="N0d-MN-2aF" secondAttribute="bottom" constant="16" id="BVl-Xd-R5Z"/>
+                        <constraint firstItem="N0d-MN-2aF" firstAttribute="leading" secondItem="KOp-bq-poG" secondAttribute="leading" constant="20" id="IR3-3c-WZ7"/>
+                        <constraint firstAttribute="trailing" secondItem="sMe-2M-b0q" secondAttribute="trailing" constant="20" id="UX1-A2-3X1"/>
+                        <constraint firstItem="GbM-Yr-d3Q" firstAttribute="leading" secondItem="KOp-bq-poG" secondAttribute="leading" constant="20" id="WeE-wT-1N7"/>
+                        <constraint firstAttribute="trailing" secondItem="N0d-MN-2aF" secondAttribute="trailing" constant="20" id="XkQ-OS-BFa"/>
+                        <constraint firstItem="sMe-2M-b0q" firstAttribute="top" secondItem="GbM-Yr-d3Q" secondAttribute="top" id="nV5-RM-o45"/>
+                        <constraint firstItem="N0d-MN-2aF" firstAttribute="top" secondItem="KOp-bq-poG" secondAttribute="top" id="qr1-Ax-OT3"/>
+                        <constraint firstItem="sMe-2M-b0q" firstAttribute="leading" secondItem="GbM-Yr-d3Q" secondAttribute="trailing" constant="10" id="yvb-fd-Xjg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="KOp-bq-poG" secondAttribute="bottom" id="2IV-WO-gSI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="KOp-bq-poG" secondAttribute="top" id="714-Xz-h2t"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="leading" secondItem="KOp-bq-poG" secondAttribute="leading" id="DFr-eI-JME"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="KOp-bq-poG" secondAttribute="trailing" id="V4K-hC-fDA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="lblDetails" destination="sMe-2M-b0q" id="WgP-t1-7qF"/>
+                <outlet property="lblText" destination="GbM-Yr-d3Q" id="pcY-73-OAz"/>
+                <outlet property="viewSeparator" destination="N0d-MN-2aF" id="uh5-JN-ufp"/>
+            </connections>
+            <point key="canvasLocation" x="-580.5" y="-349.5"/>
+        </view>
+    </objects>
+</document>

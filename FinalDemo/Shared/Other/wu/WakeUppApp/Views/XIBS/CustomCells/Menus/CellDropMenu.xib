@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CellDropMenu" rowHeight="40" id="gpr-CK-bOx" customClass="CellDropMenu" customModule="WakeUppApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gpr-CK-bOx" id="FhF-EZ-bG4">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="39.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uNd-5y-R45">
+                        <rect key="frame" x="15" y="0.0" width="360" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLP-bs-AGI">
+                        <rect key="frame" x="344" y="12" width="16" height="16"/>
+                        <color key="backgroundColor" red="0.19134491679999999" green="0.79200834040000001" blue="0.60784047839999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="8ok-Ga-BPS"/>
+                            <constraint firstAttribute="height" constant="16" id="R8x-hm-clm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="uNd-5y-R45" secondAttribute="bottom" id="29T-4F-x7a"/>
+                    <constraint firstAttribute="trailing" secondItem="VLP-bs-AGI" secondAttribute="trailing" constant="15" id="HlZ-Yg-ISb"/>
+                    <constraint firstItem="VLP-bs-AGI" firstAttribute="centerY" secondItem="FhF-EZ-bG4" secondAttribute="centerY" id="I2q-OX-KPg"/>
+                    <constraint firstItem="uNd-5y-R45" firstAttribute="leading" secondItem="FhF-EZ-bG4" secondAttribute="leading" constant="15" id="OLg-Ec-iva"/>
+                    <constraint firstAttribute="trailing" secondItem="uNd-5y-R45" secondAttribute="trailing" id="XAW-Fg-eLX"/>
+                    <constraint firstItem="uNd-5y-R45" firstAttribute="top" secondItem="FhF-EZ-bG4" secondAttribute="top" id="gHs-jU-dVy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblcount" destination="VLP-bs-AGI" id="egN-TD-p1h"/>
+                <outlet property="lbmenu" destination="uNd-5y-R45" id="ON3-cJ-3aV"/>
+            </connections>
+            <point key="canvasLocation" x="-300.5" y="-42"/>
+        </tableViewCell>
+    </objects>
+</document>

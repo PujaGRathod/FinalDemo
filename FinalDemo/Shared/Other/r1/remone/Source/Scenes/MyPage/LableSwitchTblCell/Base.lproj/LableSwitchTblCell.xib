@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W3</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="LableSwitchTblCell" customModule="remone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y8l-6Z-moy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hip-OT-ml8">
+                                <rect key="frame" x="16" y="13" width="229" height="14"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pke-FU-DMw">
+                                <rect key="frame" x="255" y="6.5" width="51" height="31"/>
+                                <color key="onTintColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="onOffAction:" destination="KGk-i7-Jjw" eventType="valueChanged" id="Po7-au-zWn"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pke-FU-DMw" firstAttribute="leading" secondItem="Hip-OT-ml8" secondAttribute="trailing" constant="10" id="0LI-k3-yiv"/>
+                            <constraint firstItem="Hip-OT-ml8" firstAttribute="top" secondItem="y8l-6Z-moy" secondAttribute="top" constant="13" id="DIS-E9-FRZ"/>
+                            <constraint firstItem="pke-FU-DMw" firstAttribute="centerY" secondItem="y8l-6Z-moy" secondAttribute="centerY" id="ElM-NU-2Pz"/>
+                            <constraint firstAttribute="bottom" secondItem="Hip-OT-ml8" secondAttribute="bottom" constant="17" id="Opy-dM-r6x"/>
+                            <constraint firstAttribute="height" constant="44" id="VUq-bu-u2E"/>
+                            <constraint firstAttribute="trailing" secondItem="pke-FU-DMw" secondAttribute="trailing" constant="16" id="a67-Yh-Df2"/>
+                            <constraint firstItem="Hip-OT-ml8" firstAttribute="leading" secondItem="y8l-6Z-moy" secondAttribute="leading" constant="16" id="cRL-1H-kuE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rFe-j7-JBO"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="y8l-6Z-moy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="TId-Xy-mp0"/>
+                    <constraint firstAttribute="trailing" secondItem="y8l-6Z-moy" secondAttribute="trailing" id="p0x-81-WqB"/>
+                    <constraint firstItem="y8l-6Z-moy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="stw-lm-LJ7"/>
+                    <constraint firstAttribute="bottom" secondItem="y8l-6Z-moy" secondAttribute="bottom" priority="999" id="xOs-7z-Dft"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblTitle" destination="Hip-OT-ml8" id="h5I-Jc-qIE"/>
+                <outlet property="onOffSwitch" destination="pke-FU-DMw" id="94d-N0-0ef"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

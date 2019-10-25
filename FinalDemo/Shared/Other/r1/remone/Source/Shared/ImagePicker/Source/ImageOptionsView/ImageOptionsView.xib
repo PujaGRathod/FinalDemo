@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W3</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageOptionsView" customModule="remone" customModuleProvider="target">
+            <connections>
+                <outlet property="btnDevicePhotoLibrary" destination="vVC-cr-yzc" id="Gf2-Vu-g7s"/>
+                <outlet property="btnFacebook" destination="aWA-92-RCg" id="LCr-YV-6Xe"/>
+                <outlet property="btnInstagram" destination="Cua-o0-Stm" id="EfM-df-cpY"/>
+                <outlet property="containerView" destination="iN0-l3-epB" id="0sN-Al-fWm"/>
+                <outlet property="lblTitle" destination="FoY-za-zJa" id="MyG-e1-60n"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="386"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select image from" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FoY-za-zJa">
+                    <rect key="frame" x="119" y="80.5" width="136.5" height="15"/>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cua-o0-Stm">
+                    <rect key="frame" x="87.5" y="115.5" width="200" height="45"/>
+                    <color key="backgroundColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Instagram"/>
+                    <connections>
+                        <action selector="onInstagramTap:" destination="-1" eventType="touchUpInside" id="EY0-oT-xdJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWA-92-RCg">
+                    <rect key="frame" x="87.5" y="170.5" width="200" height="45"/>
+                    <color key="backgroundColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="O7k-ye-Tlx"/>
+                        <constraint firstAttribute="width" constant="200" id="mhM-Zl-G2C"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Facebook"/>
+                    <connections>
+                        <action selector="onFacebookTap:" destination="-1" eventType="touchUpInside" id="OjQ-vW-MgR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVC-cr-yzc">
+                    <rect key="frame" x="87.5" y="225.5" width="200" height="45"/>
+                    <color key="backgroundColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Device Photo Library"/>
+                    <connections>
+                        <action selector="onDevicePhotoLibraryTap:" destination="-1" eventType="touchUpInside" id="jlK-w5-LXg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="FoY-za-zJa" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="2jE-I6-XgK"/>
+                <constraint firstItem="vVC-cr-yzc" firstAttribute="top" secondItem="aWA-92-RCg" secondAttribute="bottom" constant="10" id="6hw-iG-pgd"/>
+                <constraint firstItem="aWA-92-RCg" firstAttribute="width" secondItem="vVC-cr-yzc" secondAttribute="width" id="JuF-B8-SGG"/>
+                <constraint firstItem="aWA-92-RCg" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="M7o-1Q-bBg"/>
+                <constraint firstItem="aWA-92-RCg" firstAttribute="top" secondItem="Cua-o0-Stm" secondAttribute="bottom" constant="10" id="ORy-dT-DkG"/>
+                <constraint firstItem="Cua-o0-Stm" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="Tbm-ap-z2b"/>
+                <constraint firstItem="Cua-o0-Stm" firstAttribute="height" secondItem="aWA-92-RCg" secondAttribute="height" id="WRS-uv-H0t"/>
+                <constraint firstItem="aWA-92-RCg" firstAttribute="height" secondItem="vVC-cr-yzc" secondAttribute="height" id="X14-AO-hCs"/>
+                <constraint firstItem="Cua-o0-Stm" firstAttribute="width" secondItem="aWA-92-RCg" secondAttribute="width" id="ZeO-m6-ap7"/>
+                <constraint firstItem="Cua-o0-Stm" firstAttribute="centerX" secondItem="FoY-za-zJa" secondAttribute="centerX" id="auU-oI-lrH"/>
+                <constraint firstItem="vVC-cr-yzc" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="rOh-Uu-2yq"/>
+                <constraint firstItem="aWA-92-RCg" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" priority="250" id="wWc-sD-k6K"/>
+                <constraint firstItem="Cua-o0-Stm" firstAttribute="top" secondItem="FoY-za-zJa" secondAttribute="bottom" constant="20" id="wzo-xS-fx4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="vVC-cr-yzc" secondAttribute="bottom" priority="750" constant="10" id="yPB-je-hYI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-100" y="121"/>
+        </view>
+    </objects>
+</document>

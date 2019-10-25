@@ -1,0 +1,45 @@
+
+/* Class = "UITabBarItem"; title = "Office"; ObjectID = "5gd-co-ncX"; */
+"5gd-co-ncX.title" = "オフィス";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "5s4-nY-DK8"; */
+"5s4-nY-DK8.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Office list near the current location"; ObjectID = "5wi-wt-xQy"; */
+"5wi-wt-xQy.normalTitle" = "現在地付近のオフィスリスト";
+
+/* Class = "UINavigationItem"; title = "Search History"; ObjectID = "7eS-mp-Xzq"; */
+"7eS-mp-Xzq.title" = "検索履歴";
+
+/* Class = "UINavigationItem"; title = "Business Day"; ObjectID = "7uq-Bf-RPk"; */
+"7uq-Bf-RPk.title" = "営業日";
+
+/* Class = "UINavigationItem"; title = "Filter"; ObjectID = "8AE-B5-XAF"; */
+"8AE-B5-XAF.title" = "絞り込み";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "OMF-L6-v0O"; */
+"OMF-L6-v0O.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "Q5Z-VO-H5V"; */
+"Q5Z-VO-H5V.title" = "適用";
+
+/* Class = "UITextField"; placeholder = "Which office do you look for?"; ObjectID = "Ydh-A5-OM1"; */
+"Ydh-A5-OM1.placeholder" = "どこのオフィスを探す？";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "a8T-dR-5CS"; */
+"a8T-dR-5CS.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "bpe-cy-IXR"; */
+"bpe-cy-IXR.title" = "キャンセル";
+
+/* Class = "UITabBarItem"; title = "Office"; ObjectID = "eRo-xD-9Vf"; */
+"eRo-xD-9Vf.title" = "オフィス";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "fJE-MY-f6a"; */
+"fJE-MY-f6a.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Favorite"; ObjectID = "l7t-vl-VOW"; */
+"l7t-vl-VOW.title" = "お気に入り";
+
+/* Class = "UIBarButtonItem"; title = "Apply"; ObjectID = "zmO-2C-teA"; */
+"zmO-2C-teA.title" = "適用";

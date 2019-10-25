@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "フォロー中"; ObjectID = "2Me-4F-895"; */
+"2Me-4F-895.text" = "フォロー中";
+
+/* Class = "UINavigationItem"; title = "My page"; ObjectID = "52e-C4-DJY"; */
+"52e-C4-DJY.title" = "マイページ";
+
+/* Class = "UINavigationItem"; title = "Inquiry"; ObjectID = "5Gh-b2-cni"; */
+"5Gh-b2-cni.title" = "お問い合わせ";
+
+/* Class = "UIButton"; normalTitle = "タイムライン"; ObjectID = "5tw-kh-GiL"; */
+"5tw-kh-GiL.normalTitle" = "タイムライン";
+
+/* Class = "UILabel"; text = "お問い合わせ"; ObjectID = "6yX-cK-MC5"; */
+"6yX-cK-MC5.text" = "お問い合わせ";
+
+/* Class = "UILabel"; text = "契約済オフィス追加"; ObjectID = "7Mr-Vu-1k8"; */
+"7Mr-Vu-1k8.text" = "契約済オフィス追加";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "BZH-qq-AvA"; */
+"BZH-qq-AvA.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "基本情報"; ObjectID = "EuA-US-e85"; */
+"EuA-US-e85.normalTitle" = "基本情報";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "I6e-ke-Usr"; */
+"I6e-ke-Usr.title" = "マイページ";
+
+/* Class = "UILabel"; text = "社外への情報公開"; ObjectID = "IRx-Q8-ZSU"; */
+"IRx-Q8-ZSU.text" = "社外への情報公開";
+
+/* Class = "UITableViewSection"; headerTitle = "Please enter your inquiry content"; ObjectID = "Nd7-24-IsZ"; */
+"Nd7-24-IsZ.headerTitle" = "お問い合わせ内容を入力してください";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "NkQ-gT-m7o"; */
+"NkQ-gT-m7o.text" = "4";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Ocx-cM-BF0"; */
+"Ocx-cM-BF0.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "ログアウト"; ObjectID = "T7T-Wg-AJW"; */
+"T7T-Wg-AJW.normalTitle" = "ログアウト";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Tf4-Vq-QFk"; */
+"Tf4-Vq-QFk.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "U5F-pJ-clt"; */
+"U5F-pJ-clt.title" = " ";
+
+/* Class = "UILabel"; text = "パーソナル設定"; ObjectID = "ZFI-vX-XZx"; */
+"ZFI-vX-XZx.text" = "パーソナル設定";
+
+/* Class = "UILabel"; text = "上長"; ObjectID = "dQj-7a-haA"; */
+"dQj-7a-haA.text" = "上長";
+
+/* Class = "UIBarButtonItem"; title = "Send"; ObjectID = "ern-6l-J7J"; */
+"ern-6l-J7J.title" = "送信";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "ghJ-VL-vdM"; */
+"ghJ-VL-vdM.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "hAc-ih-gjg"; */
+"hAc-ih-gjg.title" = "キャンセル";
+
+/* Class = "UILabel"; text = "木村智志"; ObjectID = "qDW-ho-e4G"; */
+"qDW-ho-e4G.text" = "木村智志";
+
+/* Class = "UILabel"; text = "公開"; ObjectID = "wiA-Tf-585"; */
+"wiA-Tf-585.text" = "公開";

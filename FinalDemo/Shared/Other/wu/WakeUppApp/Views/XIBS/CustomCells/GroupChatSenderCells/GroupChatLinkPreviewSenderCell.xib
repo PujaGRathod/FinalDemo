@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="GroupChatLinkPreviewSenderCell" rowHeight="177" id="2Xp-kP-9TU" customClass="GroupChatLinkPreviewSenderCell" customModule="WakeUppApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="177"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2Xp-kP-9TU" id="16f-QU-EUN">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="176.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8rR-uY-Ylv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="176.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right1" translatesAutoresizingMaskIntoConstraints="NO" id="c7Z-fH-ndS">
+                                <rect key="frame" x="5" y="2" width="220" height="172"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="lNI-zU-e36"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PBw-oS-D1w">
+                                <rect key="frame" x="10" y="8" width="208" height="48"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jbk-pf-dWp">
+                                        <rect key="frame" x="0.0" y="0.0" width="5" height="48"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Theme" translatesAutoresizingMaskIntoConstraints="NO" id="B18-VL-m3G">
+                                                <rect key="frame" x="0.0" y="0.0" width="5" height="48"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="B18-VL-m3G" secondAttribute="bottom" id="888-Ha-LUj"/>
+                                            <constraint firstItem="B18-VL-m3G" firstAttribute="top" secondItem="Jbk-pf-dWp" secondAttribute="top" id="E8b-3L-Mmh"/>
+                                            <constraint firstItem="B18-VL-m3G" firstAttribute="leading" secondItem="Jbk-pf-dWp" secondAttribute="leading" id="LjZ-ra-jkE"/>
+                                            <constraint firstAttribute="width" constant="5" id="RZ6-11-9PE"/>
+                                            <constraint firstAttribute="trailing" secondItem="B18-VL-m3G" secondAttribute="trailing" id="yKo-Ef-SEW"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name of The Sender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMM-nd-I1N">
+                                        <rect key="frame" x="8" y="1" width="197" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="hDn-TU-Rsw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                                        <color key="textColor" red="0.1220702156" green="0.7800741792" blue="0.59215795989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message of reply" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGK-hi-zt0">
+                                        <rect key="frame" x="8" y="24" width="197" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="MeA-W2-sxE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="DGK-hi-zt0" firstAttribute="leading" secondItem="Jbk-pf-dWp" secondAttribute="trailing" constant="3" id="7np-K0-Abv"/>
+                                    <constraint firstItem="Jbk-pf-dWp" firstAttribute="leading" secondItem="PBw-oS-D1w" secondAttribute="leading" id="Gne-rq-yIV"/>
+                                    <constraint firstItem="DGK-hi-zt0" firstAttribute="top" secondItem="tMM-nd-I1N" secondAttribute="bottom" constant="2" id="HBU-NV-v2d"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jbk-pf-dWp" secondAttribute="bottom" id="OmW-Z1-CX1"/>
+                                    <constraint firstItem="Jbk-pf-dWp" firstAttribute="top" secondItem="PBw-oS-D1w" secondAttribute="top" id="cfX-t8-cJL"/>
+                                    <constraint firstAttribute="trailing" secondItem="DGK-hi-zt0" secondAttribute="trailing" constant="3" id="dzc-nZ-Bxs"/>
+                                    <constraint firstAttribute="width" constant="208" id="f5W-PB-n81"/>
+                                    <constraint firstItem="tMM-nd-I1N" firstAttribute="leading" secondItem="Jbk-pf-dWp" secondAttribute="trailing" constant="3" id="kvR-sw-99Y"/>
+                                    <constraint firstItem="tMM-nd-I1N" firstAttribute="top" secondItem="PBw-oS-D1w" secondAttribute="top" constant="1" id="pAv-KW-9bC"/>
+                                    <constraint firstAttribute="height" constant="48" id="se8-F1-df6"/>
+                                    <constraint firstAttribute="trailing" secondItem="tMM-nd-I1N" secondAttribute="trailing" constant="3" id="vRz-zN-Uw1"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sender Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkv-Qq-8l9">
+                                <rect key="frame" x="10" y="59" width="209" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="209" id="SEs-UZ-tZU"/>
+                                    <constraint firstAttribute="height" constant="15" id="qdY-d2-u7s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="12"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wy6-xR-LqH">
+                                <rect key="frame" x="0.0" y="56" width="320" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="33B-TT-5LW"/>
+                                </constraints>
+                            </button>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ovj-u3-gxG">
+                                <rect key="frame" x="10" y="78" width="211" height="48"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LkS-ME-WSC">
+                                        <rect key="frame" x="4" y="4" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="9Mb-op-28E"/>
+                                            <constraint firstAttribute="height" constant="40" id="Xc8-4z-pD6"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title of the Link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9K-Vi-Lec">
+                                        <rect key="frame" x="52" y="4" width="151" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="K30-sF-n0J"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description of the link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCF-vn-0vB">
+                                        <rect key="frame" x="52" y="20" width="151" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="12" id="E27-9D-TEQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Website URL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZO-fL-PXE">
+                                        <rect key="frame" x="52" y="32" width="151" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="12" id="e1X-QJ-P06"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2x-5H-w1m">
+                                        <rect key="frame" x="4" y="4" width="203" height="40"/>
+                                        <connections>
+                                            <action selector="btnLinkClicked:" destination="2Xp-kP-9TU" eventType="touchUpInside" id="FqD-kC-OLW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="LkS-ME-WSC" firstAttribute="top" secondItem="Ovj-u3-gxG" secondAttribute="top" constant="4" id="Hp5-8p-hdF"/>
+                                    <constraint firstAttribute="bottom" secondItem="s2x-5H-w1m" secondAttribute="bottom" constant="4" id="MhG-fH-TAD"/>
+                                    <constraint firstAttribute="trailing" secondItem="s2x-5H-w1m" secondAttribute="trailing" constant="4" id="Uv3-mN-hjV"/>
+                                    <constraint firstItem="s2x-5H-w1m" firstAttribute="leading" secondItem="Ovj-u3-gxG" secondAttribute="leading" constant="4" id="W4n-q4-2RF"/>
+                                    <constraint firstItem="FCF-vn-0vB" firstAttribute="top" secondItem="b9K-Vi-Lec" secondAttribute="bottom" id="Yra-Vf-5lX"/>
+                                    <constraint firstAttribute="height" constant="48" id="awM-jD-wrG"/>
+                                    <constraint firstItem="FCF-vn-0vB" firstAttribute="leading" secondItem="LkS-ME-WSC" secondAttribute="trailing" constant="8" id="dyG-tF-Uah"/>
+                                    <constraint firstItem="s2x-5H-w1m" firstAttribute="top" secondItem="Ovj-u3-gxG" secondAttribute="top" constant="4" id="eBw-X7-eGW"/>
+                                    <constraint firstAttribute="trailing" secondItem="b9K-Vi-Lec" secondAttribute="trailing" constant="8" id="eQX-b3-4is"/>
+                                    <constraint firstItem="oZO-fL-PXE" firstAttribute="leading" secondItem="LkS-ME-WSC" secondAttribute="trailing" constant="8" id="ixm-xa-40m"/>
+                                    <constraint firstAttribute="trailing" secondItem="oZO-fL-PXE" secondAttribute="trailing" constant="8" id="kNB-vt-WDM"/>
+                                    <constraint firstItem="b9K-Vi-Lec" firstAttribute="leading" secondItem="LkS-ME-WSC" secondAttribute="trailing" constant="8" id="mm1-Qv-P6B"/>
+                                    <constraint firstItem="LkS-ME-WSC" firstAttribute="leading" secondItem="Ovj-u3-gxG" secondAttribute="leading" constant="4" id="n4d-zf-ej4"/>
+                                    <constraint firstItem="b9K-Vi-Lec" firstAttribute="top" secondItem="Ovj-u3-gxG" secondAttribute="top" constant="4" id="uPe-Q5-NlJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="FCF-vn-0vB" secondAttribute="trailing" constant="8" id="wN4-sK-rA2"/>
+                                    <constraint firstAttribute="width" constant="211" id="wR6-3v-n1s"/>
+                                    <constraint firstItem="oZO-fL-PXE" firstAttribute="top" secondItem="FCF-vn-0vB" secondAttribute="bottom" id="xfC-gz-yXr"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZc-57-LME">
+                                <rect key="frame" x="10" y="130" width="211" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="211" id="YcF-KW-YgO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GxD-6K-a81">
+                                <rect key="frame" x="5" y="155" width="214" height="18"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:20" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZE-tl-ryj">
+                                        <rect key="frame" x="6" y="3" width="206" height="12"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="10"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="read_msg" translatesAutoresizingMaskIntoConstraints="NO" id="3go-GP-ss6">
+                                        <rect key="frame" x="214" y="3" width="0.0" height="12"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="12" id="8OK-75-UVc"/>
+                                            <constraint firstAttribute="width" id="Mop-Eu-8YV"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="3go-GP-ss6" secondAttribute="bottom" constant="3" id="2if-Wk-D87"/>
+                                    <constraint firstAttribute="trailing" secondItem="3go-GP-ss6" secondAttribute="trailing" id="8dG-jJ-Odr"/>
+                                    <constraint firstItem="3go-GP-ss6" firstAttribute="leading" secondItem="dZE-tl-ryj" secondAttribute="trailing" constant="2" id="DNJ-KA-Irz"/>
+                                    <constraint firstAttribute="height" constant="18" id="Ljh-bx-tOg"/>
+                                    <constraint firstAttribute="bottom" secondItem="dZE-tl-ryj" secondAttribute="bottom" constant="3" id="Tbu-kR-gCd"/>
+                                    <constraint firstItem="dZE-tl-ryj" firstAttribute="top" secondItem="GxD-6K-a81" secondAttribute="top" constant="3" id="WQf-Zx-iv0"/>
+                                    <constraint firstAttribute="width" constant="214" id="Xm8-uw-4UX"/>
+                                    <constraint firstItem="dZE-tl-ryj" firstAttribute="leading" secondItem="GxD-6K-a81" secondAttribute="leading" constant="6" id="rul-j1-GPE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="GxD-6K-a81" secondAttribute="bottom" constant="3.5" id="3jT-7g-E3n"/>
+                            <constraint firstItem="Wy6-xR-LqH" firstAttribute="leading" secondItem="8rR-uY-Ylv" secondAttribute="leading" id="Ega-WQ-EoF"/>
+                            <constraint firstItem="c7Z-fH-ndS" firstAttribute="top" secondItem="8rR-uY-Ylv" secondAttribute="top" constant="2" id="Hxd-2l-UET"/>
+                            <constraint firstItem="PBw-oS-D1w" firstAttribute="leading" secondItem="8rR-uY-Ylv" secondAttribute="leading" constant="10" id="JYm-GN-pRq"/>
+                            <constraint firstItem="GxD-6K-a81" firstAttribute="top" secondItem="yZc-57-LME" secondAttribute="bottom" constant="5" id="MSF-yG-irE"/>
+                            <constraint firstItem="GxD-6K-a81" firstAttribute="leading" secondItem="8rR-uY-Ylv" secondAttribute="leading" constant="5" id="Oqg-S3-iSz"/>
+                            <constraint firstItem="yZc-57-LME" firstAttribute="leading" secondItem="8rR-uY-Ylv" secondAttribute="leading" constant="10" id="TCB-cc-MPD"/>
+                            <constraint firstItem="vkv-Qq-8l9" firstAttribute="top" secondItem="PBw-oS-D1w" secondAttribute="bottom" constant="3" id="XSm-dd-EHQ"/>
+                            <constraint firstItem="PBw-oS-D1w" firstAttribute="top" secondItem="8rR-uY-Ylv" secondAttribute="top" constant="8" id="hZ0-mX-nx3"/>
+                            <constraint firstItem="Wy6-xR-LqH" firstAttribute="top" secondItem="PBw-oS-D1w" secondAttribute="bottom" id="kCz-Ib-b99"/>
+                            <constraint firstItem="Ovj-u3-gxG" firstAttribute="leading" secondItem="8rR-uY-Ylv" secondAttribute="leading" constant="10" id="pCa-TF-9Vc"/>
+                            <constraint firstAttribute="trailing" secondItem="Wy6-xR-LqH" secondAttribute="trailing" id="qOd-sU-olU"/>
+                            <constraint firstItem="c7Z-fH-ndS" firstAttribute="leading" secondItem="8rR-uY-Ylv" secondAttribute="leading" constant="5" id="uAx-Wg-ggL"/>
+                            <constraint firstItem="Ovj-u3-gxG" firstAttribute="top" secondItem="vkv-Qq-8l9" secondAttribute="bottom" constant="4" id="wuf-wt-D2f"/>
+                            <constraint firstAttribute="bottom" secondItem="c7Z-fH-ndS" secondAttribute="bottom" constant="2.5" id="xpg-RH-aZK"/>
+                            <constraint firstItem="vkv-Qq-8l9" firstAttribute="leading" secondItem="8rR-uY-Ylv" secondAttribute="leading" constant="10" id="z2I-Tx-cD0"/>
+                            <constraint firstItem="yZc-57-LME" firstAttribute="top" secondItem="Ovj-u3-gxG" secondAttribute="bottom" constant="4" id="ziv-JW-1QN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="8rR-uY-Ylv" secondAttribute="bottom" id="PUH-Yw-Ofz"/>
+                    <constraint firstAttribute="trailing" secondItem="8rR-uY-Ylv" secondAttribute="trailing" id="a0D-fw-XPy"/>
+                    <constraint firstItem="8rR-uY-Ylv" firstAttribute="leading" secondItem="16f-QU-EUN" secondAttribute="leading" id="cN0-Q5-ncH"/>
+                    <constraint firstItem="8rR-uY-Ylv" firstAttribute="top" secondItem="16f-QU-EUN" secondAttribute="top" id="tQa-3O-jON"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnLink" destination="s2x-5H-w1m" id="BTs-Qc-EO7"/>
+                <outlet property="btnSender_LinkMess" destination="Wy6-xR-LqH" id="xLu-cn-dz0"/>
+                <outlet property="heightReplyView" destination="se8-F1-df6" id="44D-8u-M71"/>
+                <outlet property="imgLinkPreview" destination="LkS-ME-WSC" id="SNg-ek-Geb"/>
+                <outlet property="imgbubble" destination="c7Z-fH-ndS" id="zgO-Lt-GMZ"/>
+                <outlet property="imgreadicon" destination="3go-GP-ss6" id="QEW-l6-DE9"/>
+                <outlet property="lblLinkDescription" destination="FCF-vn-0vB" id="nhd-Tj-rzJ"/>
+                <outlet property="lblLinkTitle" destination="b9K-Vi-Lec" id="hEr-tb-oh1"/>
+                <outlet property="lblLinkUrl" destination="oZO-fL-PXE" id="uMS-s8-prO"/>
+                <outlet property="lblMessageReply" destination="DGK-hi-zt0" id="HGL-ue-iyQ"/>
+                <outlet property="lblNameReply" destination="tMM-nd-I1N" id="fOL-ew-HO2"/>
+                <outlet property="lblSender" destination="vkv-Qq-8l9" id="z7q-6M-1aX"/>
+                <outlet property="lblmsg" destination="yZc-57-LME" id="Deu-a4-R9f"/>
+                <outlet property="lbltime" destination="dZE-tl-ryj" id="Lyc-Te-0Nm"/>
+                <outlet property="vwcontainer" destination="8rR-uY-Ylv" id="YTg-ML-313"/>
+                <outlet property="widthImgLinkPreview" destination="9Mb-op-28E" id="ebf-Vu-fO4"/>
+            </connections>
+            <point key="canvasLocation" x="-437" y="-437"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Theme" width="360" height="83"/>
+        <image name="read_msg" width="14" height="15"/>
+        <image name="right1" width="22" height="22"/>
+    </resources>
+</document>

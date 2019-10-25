@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W6</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RMUserTimestampView" customModule="remone" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="iN0-l3-epB" id="kbj-MY-RI8"/>
+                <outlet property="iconImageView" destination="Szf-cB-pS4" id="UdJ-h3-Aql"/>
+                <outlet property="titleLabel" destination="Ddo-48-uSz" id="Ptd-G7-1yR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Szf-cB-pS4">
+                    <rect key="frame" x="0.0" y="0.0" width="56" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Szf-cB-pS4" secondAttribute="height" id="tLL-K3-YeX"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddo-48-uSz">
+                    <rect key="frame" x="60" y="0.0" width="311" height="56"/>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Szf-cB-pS4" secondAttribute="bottom" id="0Cm-19-5cr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Ddo-48-uSz" secondAttribute="bottom" id="CVn-bs-578"/>
+                <constraint firstItem="Szf-cB-pS4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="RbQ-5E-a6P"/>
+                <constraint firstItem="Ddo-48-uSz" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="fLQ-0w-KjZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ddo-48-uSz" secondAttribute="trailing" constant="4" id="hzM-MC-pFc"/>
+                <constraint firstItem="Ddo-48-uSz" firstAttribute="leading" secondItem="Szf-cB-pS4" secondAttribute="trailing" constant="4" id="qil-U3-oBQ"/>
+                <constraint firstItem="Szf-cB-pS4" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="xCM-Cx-cfq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-29.5" y="-12"/>
+        </view>
+    </objects>
+</document>

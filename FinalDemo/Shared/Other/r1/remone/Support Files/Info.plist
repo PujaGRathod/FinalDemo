@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>ja_JP</string>
+	<key>CFBundleDisplayName</key>
+	<string>RemoOne</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb2117003045194406</string>
+			</array>
+		</dict>
+		<dict/>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>93</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>6fcbfe3239a7c89eeca4178f246a875764052577</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>FacebookAppID</key>
+	<string>2117003045194406</string>
+	<key>FacebookDisplayName</key>
+	<string>Remone iOS</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow RemoOne to access your camera.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow RemoOne to access location</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow RemoOne to access microphone for Cisco Spark Calls</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow RemoOne to access your photo library.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow RemoOne to access your photo library.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Hiragino Sans W0.ttc</string>
+		<string>Hiragino Sans W1.ttc</string>
+		<string>Hiragino Sans W2.ttc</string>
+		<string>Hiragino Sans W3.ttc</string>
+		<string>Hiragino Sans W4.ttc</string>
+		<string>Hiragino Sans W5.ttc</string>
+		<string>Hiragino Sans W6.ttc</string>
+		<string>Hiragino Sans W7.ttc</string>
+		<string>Hiragino Sans W8.ttc</string>
+		<string>Hiragino Sans W9.ttc</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>voip</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Welcome</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

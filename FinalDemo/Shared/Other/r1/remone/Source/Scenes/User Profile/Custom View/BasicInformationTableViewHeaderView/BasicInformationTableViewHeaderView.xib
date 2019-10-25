@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W4</string>
+            <string>HiraginoSans-W5</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BasicInformationTableViewHeaderView" customModule="remone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h7N-Gh-VfC">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BXX-tU-JJX">
+                            <rect key="frame" x="20" y="0.0" width="335" height="1"/>
+                            <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="EIc-eB-efr"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3k-iH-xht">
+                            <rect key="frame" x="20" y="16" width="297" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="2OI-jL-AWc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HiraginoSans-W4" family="Hiragino Sans" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="23m-Dr-C6V">
+                            <rect key="frame" x="325" y="15" width="30" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="vjD-zw-W3h"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HiraginoSans-W5" family="Hiragino Sans" pointSize="12"/>
+                            <state key="normal" title="編集">
+                                <color key="titleColor" red="0.050980392156862744" green="0.24705882352941178" blue="0.61960784313725492" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="editButtonTapped:" destination="-2" eventType="touchUpInside" id="v7J-FW-cKU"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="BXX-tU-JJX" firstAttribute="top" secondItem="h7N-Gh-VfC" secondAttribute="top" id="DZa-MW-wfa"/>
+                        <constraint firstAttribute="trailing" secondItem="23m-Dr-C6V" secondAttribute="trailing" constant="20" id="Eer-ux-BFh"/>
+                        <constraint firstItem="23m-Dr-C6V" firstAttribute="top" secondItem="h7N-Gh-VfC" secondAttribute="top" constant="15" id="Hjf-7z-jfg"/>
+                        <constraint firstAttribute="trailing" secondItem="BXX-tU-JJX" secondAttribute="trailing" constant="20" id="HxW-Qn-ZIi"/>
+                        <constraint firstItem="K3k-iH-xht" firstAttribute="top" secondItem="h7N-Gh-VfC" secondAttribute="top" constant="16" id="Km9-1N-aLR"/>
+                        <constraint firstAttribute="bottom" secondItem="K3k-iH-xht" secondAttribute="bottom" constant="12" id="aKf-jA-kvx"/>
+                        <constraint firstItem="K3k-iH-xht" firstAttribute="leading" secondItem="h7N-Gh-VfC" secondAttribute="leading" constant="20" id="fqJ-eK-fD2"/>
+                        <constraint firstItem="23m-Dr-C6V" firstAttribute="leading" secondItem="K3k-iH-xht" secondAttribute="trailing" constant="8" id="iiN-Oz-nP7"/>
+                        <constraint firstItem="BXX-tU-JJX" firstAttribute="leading" secondItem="h7N-Gh-VfC" secondAttribute="leading" constant="20" id="kJw-iI-ZFZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="h7N-Gh-VfC" secondAttribute="top" id="2Dy-VC-RxA"/>
+                <constraint firstItem="h7N-Gh-VfC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="FiS-5d-0ej"/>
+                <constraint firstItem="h7N-Gh-VfC" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Iho-1v-wn3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="h7N-Gh-VfC" secondAttribute="trailing" id="U6N-wP-G1g"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnEdit" destination="23m-Dr-C6V" id="nSX-Wb-pzm"/>
+                <outlet property="titleLabel" destination="K3k-iH-xht" id="exA-tC-wc9"/>
+                <outlet property="topLineView" destination="BXX-tU-JJX" id="bLr-Ha-KNk"/>
+            </connections>
+            <point key="canvasLocation" x="-33" y="314"/>
+        </view>
+    </objects>
+</document>

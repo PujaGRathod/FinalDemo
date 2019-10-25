@@ -1,0 +1,75 @@
+
+/* Class = "UINavigationItem"; title = "連絡情報"; ObjectID = "1pk-8i-Yul"; */
+"1pk-8i-Yul.title" = "連絡情報";
+
+/* Class = "UILabel"; text = "メール"; ObjectID = "7vc-on-B0Y"; */
+"7vc-on-B0Y.text" = "メール";
+
+/* Class = "UIBarButtonItem"; title = "キャンセル"; ObjectID = "8Qc-xt-Wkc"; */
+"8Qc-xt-Wkc.title" = "キャンセル";
+
+/* Class = "UILabel"; text = "インフラ運用"; ObjectID = "Bzq-RN-2n1"; */
+"Bzq-RN-2n1.text" = "インフラ運用";
+
+/* Class = "UILabel"; text = "名前"; ObjectID = "EQu-Xf-sal"; */
+"EQu-Xf-sal.text" = "名前";
+
+/* Class = "UILabel"; text = "フリカナ"; ObjectID = "Ilk-Ae-PsB"; */
+"Ilk-Ae-PsB.text" = "フリカナ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "OBN-Vm-Bkz"; */
+"OBN-Vm-Bkz.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "PPT-tX-fTR"; */
+"PPT-tX-fTR.title" = " ";
+
+/* Class = "UITextField"; placeholder = "Phone number"; ObjectID = "Qv4-vj-3eg"; */
+"Qv4-vj-3eg.placeholder" = "未設定";
+
+/* Class = "UITextField"; placeholder = "Mobile Phone Number"; ObjectID = "RP7-IO-GFz"; */
+"RP7-IO-GFz.placeholder" = "未設定";
+
+/* Class = "UILabel"; text = "電話"; ObjectID = "RU8-pU-u5i"; */
+"RU8-pU-u5i.text" = "電話";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "TH9-uA-Ep2"; */
+"TH9-uA-Ep2.placeholder" = "メール";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Tns-Ed-Ve2"; */
+"Tns-Ed-Ve2.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "完了"; ObjectID = "Vrg-aX-hX5"; */
+"Vrg-aX-hX5.title" = "完了";
+
+/* Class = "UILabel"; text = "所属"; ObjectID = "WXO-0D-NJe"; */
+"WXO-0D-NJe.text" = "所属";
+
+/* Class = "UINavigationItem"; title = "基本情報"; ObjectID = "a2R-4G-2gY"; */
+"a2R-4G-2gY.title" = "基本情報";
+
+/* Class = "UINavigationItem"; title = "スキル"; ObjectID = "eIc-RB-U2h"; */
+"eIc-RB-U2h.title" = "スキル";
+
+/* Class = "UILabel"; text = "自己紹介"; ObjectID = "gtE-Zp-D8d"; */
+"gtE-Zp-D8d.text" = "自己紹介";
+
+/* Class = "UILabel"; text = "役職"; ObjectID = "h5P-7Y-ykl"; */
+"h5P-7Y-ykl.text" = "役職";
+
+/* Class = "UIBarButtonItem"; title = "キャンセル"; ObjectID = "hqf-ZN-CL0"; */
+"hqf-ZN-CL0.title" = "キャンセル";
+
+/* Class = "UILabel"; text = "携帯電話"; ObjectID = "jHh-3K-gOK"; */
+"jHh-3K-gOK.text" = "携帯電話";
+
+/* Class = "UIBarButtonItem"; title = "完了"; ObjectID = "oUS-0C-Olq"; */
+"oUS-0C-Olq.title" = "完了";
+
+/* Class = "UIBarButtonItem"; title = "キャンセル"; ObjectID = "oaE-yN-jBv"; */
+"oaE-yN-jBv.title" = "キャンセル";
+
+/* Class = "UIBarButtonItem"; title = "完了"; ObjectID = "qEN-S1-rjC"; */
+"qEN-S1-rjC.title" = "完了";
+
+/* Class = "UILabel"; text = "会社名"; ObjectID = "wtc-qz-EQ6"; */
+"wtc-qz-EQ6.text" = "会社名";

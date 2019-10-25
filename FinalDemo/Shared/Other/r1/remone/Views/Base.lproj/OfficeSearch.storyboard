@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bRe-ve-dc7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Hiragino Sans W5.ttc">
+            <string>HiraginoSans-W5</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Office-->
+        <scene sceneID="NZk-Cc-TV6">
+            <objects>
+                <navigationController storyboardIdentifier="navOfficeSearch" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bRe-ve-dc7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Office" image="iconOfficeUnselected" selectedImage="iconOfficeSelected" id="eRo-xD-9Vf">
+                        <color key="badgeColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="V31-Aa-BdU">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="pcG-sp-RuY" kind="relationship" relationship="rootViewController" id="iQC-89-hSl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lAH-SH-3r1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4388" y="-1044"/>
+        </scene>
+        <!--Favorite-->
+        <scene sceneID="whj-y9-86h">
+            <objects>
+                <tableViewController storyboardIdentifier="FavoriteOfficeListVC" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ubD-OZ-kzS" customClass="FavoriteOfficeListVC" customModule="remone" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" id="gZD-hn-WNR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="ubD-OZ-kzS" id="8sU-QD-yAP"/>
+                            <outlet property="delegate" destination="ubD-OZ-kzS" id="W7k-SJ-NS8"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Favorite" id="l7t-vl-VOW">
+                        <barButtonItem key="backBarButtonItem" title=" " id="OMF-L6-v0O"/>
+                    </navigationItem>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="3qq-il-XB2">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <attributedString key="attributedTitle"/>
+                    </refreshControl>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UeU-hb-BXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5953" y="-1050"/>
+        </scene>
+        <!--Office-->
+        <scene sceneID="66m-Ew-TxO">
+            <objects>
+                <navigationController storyboardIdentifier="navOfficeFilter" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oor-V5-rHk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Office" image="iconOfficeUnselected" selectedImage="iconOfficeSelected" id="5gd-co-ncX">
+                        <color key="badgeColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="CQ1-Zh-mqQ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="i0n-jT-Ekg" kind="relationship" relationship="rootViewController" id="RCj-BE-pUy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mHg-ju-igx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5953" y="-1790"/>
+        </scene>
+        <!--Office SearchVC-->
+        <scene sceneID="b7i-xJ-MtL">
+            <objects>
+                <viewController storyboardIdentifier="OfficeSearchVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pcG-sp-RuY" customClass="OfficeSearchVC" customModule="remone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T8C-Uz-6ii">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xRx-fg-I7R" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmp-Xt-GZd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="onCloseListTap:" destination="pcG-sp-RuY" eventType="touchUpInside" id="TAU-jk-SI6"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aVX-7w-yGy" customClass="AppliedFilterView" customModule="remone" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="DBP-BO-wdh"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hzq-R0-5uv">
+                                <rect key="frame" x="0.0" y="531" width="375" height="72"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wi-wt-xQy">
+                                        <rect key="frame" x="77.5" y="16" width="220" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="220" id="ULQ-eT-yt0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HiraginoSans-W5" family="Hiragino Sans" pointSize="12"/>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Office list near the current location" image="iconOfficeNearMe">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onOfficeNearMeTap:" destination="pcG-sp-RuY" eventType="touchUpInside" id="E8m-7b-QdE"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vf5-MV-Mxc">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <action selector="onCloseListTap:" destination="pcG-sp-RuY" eventType="touchUpInside" id="Fxd-GW-2ME"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RE-VI-j0V">
+                                        <rect key="frame" x="319" y="16" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="1RE-VI-j0V" secondAttribute="height" multiplier="1:1" id="3dI-2C-xT2"/>
+                                            <constraint firstAttribute="height" constant="40" id="FBK-4g-ipa"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" image="iconCurrentLocation"/>
+                                        <connections>
+                                            <action selector="onShowCurrentLocationTap:" destination="pcG-sp-RuY" eventType="touchUpInside" id="uTv-YS-N30"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="vf5-MV-Mxc" firstAttribute="centerX" secondItem="Hzq-R0-5uv" secondAttribute="centerX" id="1JZ-op-L4f"/>
+                                    <constraint firstItem="vf5-MV-Mxc" firstAttribute="height" secondItem="Hzq-R0-5uv" secondAttribute="height" id="24h-Lg-k9x"/>
+                                    <constraint firstAttribute="trailing" secondItem="1RE-VI-j0V" secondAttribute="trailing" constant="16" id="5G4-SX-0Ir"/>
+                                    <constraint firstItem="vf5-MV-Mxc" firstAttribute="centerY" secondItem="Hzq-R0-5uv" secondAttribute="centerY" id="FYr-33-KWe"/>
+                                    <constraint firstItem="vf5-MV-Mxc" firstAttribute="width" secondItem="Hzq-R0-5uv" secondAttribute="width" id="FfD-0w-9JA"/>
+                                    <constraint firstItem="1RE-VI-j0V" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5wi-wt-xQy" secondAttribute="trailing" constant="11" id="IMN-wF-Snt"/>
+                                    <constraint firstItem="1RE-VI-j0V" firstAttribute="top" secondItem="Hzq-R0-5uv" secondAttribute="top" constant="16" id="M0l-nX-doB"/>
+                                    <constraint firstItem="5wi-wt-xQy" firstAttribute="top" secondItem="Hzq-R0-5uv" secondAttribute="top" constant="16" id="N6f-CS-vng"/>
+                                    <constraint firstAttribute="bottom" secondItem="1RE-VI-j0V" secondAttribute="bottom" constant="16" id="cxh-FB-dgZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="5wi-wt-xQy" secondAttribute="bottom" constant="16" id="dk5-sY-Jin"/>
+                                    <constraint firstItem="5wi-wt-xQy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Hzq-R0-5uv" secondAttribute="leading" constant="16" id="kxE-yW-nPw"/>
+                                    <constraint firstItem="5wi-wt-xQy" firstAttribute="centerX" secondItem="Hzq-R0-5uv" secondAttribute="centerX" priority="750" id="tak-eF-4rE"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="0hn-Ei-uoC">
+                                <rect key="frame" x="0.0" y="603" width="375" height="0.0"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="BFO-gf-3WL"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="taz-I4-jfh" firstAttribute="trailing" secondItem="0hn-Ei-uoC" secondAttribute="trailing" id="19X-MF-poo"/>
+                            <constraint firstItem="taz-I4-jfh" firstAttribute="trailing" secondItem="aVX-7w-yGy" secondAttribute="trailing" id="2uz-4G-bpF"/>
+                            <constraint firstItem="aVX-7w-yGy" firstAttribute="leading" secondItem="taz-I4-jfh" secondAttribute="leading" id="6Vs-NB-suY"/>
+                            <constraint firstItem="taz-I4-jfh" firstAttribute="trailing" secondItem="kmp-Xt-GZd" secondAttribute="trailing" id="6xM-wy-X6J"/>
+                            <constraint firstItem="taz-I4-jfh" firstAttribute="trailing" secondItem="Hzq-R0-5uv" secondAttribute="trailing" id="87Z-VF-Xgu"/>
+                            <constraint firstItem="taz-I4-jfh" firstAttribute="bottom" secondItem="0hn-Ei-uoC" secondAttribute="bottom" id="CLs-sp-Isa"/>
+                            <constraint firstItem="0hn-Ei-uoC" firstAttribute="top" secondItem="kmp-Xt-GZd" secondAttribute="bottom" id="Nic-jQ-dS3"/>
+                            <constraint firstItem="xRx-fg-I7R" firstAttribute="leading" secondItem="taz-I4-jfh" secondAttribute="leading" id="PM1-BW-Qlu"/>
+                            <constraint firstItem="xRx-fg-I7R" firstAttribute="top" secondItem="taz-I4-jfh" secondAttribute="top" id="Wmv-yR-OC3"/>
+                            <constraint firstItem="0hn-Ei-uoC" firstAttribute="top" secondItem="Hzq-R0-5uv" secondAttribute="bottom" id="akm-T7-Elg"/>
+                            <constraint firstItem="0hn-Ei-uoC" firstAttribute="top" secondItem="xRx-fg-I7R" secondAttribute="bottom" id="ckE-LX-ghJ"/>
+                            <constraint firstItem="kmp-Xt-GZd" firstAttribute="leading" secondItem="taz-I4-jfh" secondAttribute="leading" id="fZJ-mO-jOQ"/>
+                            <constraint firstItem="aVX-7w-yGy" firstAttribute="top" secondItem="taz-I4-jfh" secondAttribute="top" id="i69-Ku-CpG"/>
+                            <constraint firstItem="0hn-Ei-uoC" firstAttribute="leading" secondItem="taz-I4-jfh" secondAttribute="leading" id="kmF-HG-AsH"/>
+                            <constraint firstItem="xRx-fg-I7R" firstAttribute="trailing" secondItem="taz-I4-jfh" secondAttribute="trailing" id="qIv-iG-VzT"/>
+                            <constraint firstItem="Hzq-R0-5uv" firstAttribute="leading" secondItem="taz-I4-jfh" secondAttribute="leading" id="uri-xH-Ver"/>
+                            <constraint firstItem="kmp-Xt-GZd" firstAttribute="top" secondItem="taz-I4-jfh" secondAttribute="top" id="vHa-Ty-XCX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="taz-I4-jfh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bRn-bp-vcR">
+                        <nil key="title"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="a8T-dR-5CS"/>
+                        <barButtonItem key="leftBarButtonItem" image="iconFavoriteFilled" id="skF-iJ-VMB">
+                            <color key="tintColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="onFavoriteTap:" destination="pcG-sp-RuY" id="UGj-FS-xya"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="iconFilter" id="OUZ-Qo-VIS">
+                            <color key="tintColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="onFilterTap:" destination="pcG-sp-RuY" id="1IF-2P-zhY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="appliedFilterView" destination="aVX-7w-yGy" id="4ys-1Z-bRt"/>
+                        <outlet property="btnCloseInNearLocationView" destination="vf5-MV-Mxc" id="Jwk-EL-v6M"/>
+                        <outlet property="btnCloseList" destination="kmp-Xt-GZd" id="8M6-8c-Vla"/>
+                        <outlet property="btnFavorite" destination="skF-iJ-VMB" id="kjY-wA-i97"/>
+                        <outlet property="btnFilter" destination="OUZ-Qo-VIS" id="7sz-JW-6x5"/>
+                        <outlet property="btnOfficeNearMe" destination="5wi-wt-xQy" id="m6J-he-BTd"/>
+                        <outlet property="btnShowCurrentLocation" destination="1RE-VI-j0V" id="1qh-2v-UVF"/>
+                        <outlet property="conHeightTableView" destination="BFO-gf-3WL" id="fls-Wq-oF9"/>
+                        <outlet property="mapView" destination="xRx-fg-I7R" id="CMH-UO-fqY"/>
+                        <outlet property="tableView" destination="0hn-Ei-uoC" id="VRg-qD-A8z"/>
+                        <outlet property="txtSearch" destination="Ydh-A5-OM1" id="lfi-9R-7vJ"/>
+                        <outlet property="viewFloating" destination="Hzq-R0-5uv" id="Twh-hr-x6E"/>
+                        <segue destination="ubD-OZ-kzS" kind="show" identifier="segueShowFavoriteOfficeListVC" id="GO5-uK-YcG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rtr-Po-bCv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Which office do you look for?" textAlignment="natural" minimumFontSize="17" id="Ydh-A5-OM1">
+                    <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                </textField>
+            </objects>
+            <point key="canvasLocation" x="5118" y="-1050"/>
+        </scene>
+        <!--Filter-->
+        <scene sceneID="73s-L6-Pi3">
+            <objects>
+                <viewController storyboardIdentifier="OfficeSearchFilterVC" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="i0n-jT-Ekg" customClass="OfficeSearchFilterVC" customModule="remone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y00-zg-x6l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="64" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="EOl-Vh-M0z">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EOl-Vh-M0z" firstAttribute="leading" secondItem="L5Q-ZU-bDg" secondAttribute="leading" id="Iaq-hb-wzz"/>
+                            <constraint firstItem="L5Q-ZU-bDg" firstAttribute="bottom" secondItem="EOl-Vh-M0z" secondAttribute="bottom" id="LqE-e8-E6u"/>
+                            <constraint firstItem="L5Q-ZU-bDg" firstAttribute="trailing" secondItem="EOl-Vh-M0z" secondAttribute="trailing" id="R2V-jg-lyL"/>
+                            <constraint firstItem="EOl-Vh-M0z" firstAttribute="top" secondItem="L5Q-ZU-bDg" secondAttribute="top" id="cT2-e4-Umr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="L5Q-ZU-bDg"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Filter" id="8AE-B5-XAF">
+                        <barButtonItem key="backBarButtonItem" title=" " id="fJE-MY-f6a"/>
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="bpe-cy-IXR">
+                            <color key="tintColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="onCancelTap:" destination="i0n-jT-Ekg" id="0Jf-Ab-FSa"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Apply" id="zmO-2C-teA">
+                            <color key="tintColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="onApplyTap:" destination="i0n-jT-Ekg" id="yjh-G3-8Dj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="EOl-Vh-M0z" id="B7r-px-y4j"/>
+                        <segue destination="YjA-VP-mwb" kind="show" identifier="segueShowSelectWeekdaysVC" id="YH5-bH-5xM"/>
+                        <segue destination="0bc-vP-7WG" kind="show" identifier="segueShowOfficeSearchHistoryVC" id="Qfn-Wa-mGE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NPd-2L-3eA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6682" y="-1790"/>
+        </scene>
+        <!--Search History-->
+        <scene sceneID="W0Q-JK-XzK">
+            <objects>
+                <tableViewController storyboardIdentifier="OfficeSearchHistoryVC" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0bc-vP-7WG" customClass="OfficeSearchHistoryVC" customModule="remone" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="SPy-lo-1SR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="0bc-vP-7WG" id="XJ9-Ku-CT8"/>
+                            <outlet property="delegate" destination="0bc-vP-7WG" id="YjG-XP-cnY"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Search History" id="7eS-mp-Xzq">
+                        <barButtonItem key="rightBarButtonItem" title="Close" id="Q5Z-VO-H5V">
+                            <color key="tintColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="onCloseTap:" destination="0bc-vP-7WG" id="9mW-hr-BKp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnClose" destination="Q5Z-VO-H5V" id="HMQ-yk-ZGJ"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dIM-2G-hI2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7518" y="-2532"/>
+        </scene>
+        <!--Business Day-->
+        <scene sceneID="fkW-oj-1rZ">
+            <objects>
+                <viewController storyboardIdentifier="OfficeSearchFilterBusinessDayVC" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YjA-VP-mwb" customClass="OfficeSearchFilterBusinessDayVC" customModule="remone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QwM-8n-FxA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="vL7-ng-Gc4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vL7-ng-Gc4" firstAttribute="leading" secondItem="LyM-Wo-e3r" secondAttribute="leading" id="ST6-KJ-9rK"/>
+                            <constraint firstItem="LyM-Wo-e3r" firstAttribute="trailing" secondItem="vL7-ng-Gc4" secondAttribute="trailing" id="Zvq-40-H47"/>
+                            <constraint firstItem="vL7-ng-Gc4" firstAttribute="top" secondItem="LyM-Wo-e3r" secondAttribute="top" id="g0j-hh-Yun"/>
+                            <constraint firstItem="LyM-Wo-e3r" firstAttribute="bottom" secondItem="vL7-ng-Gc4" secondAttribute="bottom" id="h0Q-RS-EFu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LyM-Wo-e3r"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Business Day" id="7uq-Bf-RPk">
+                        <barButtonItem key="backBarButtonItem" title=" " id="5s4-nY-DK8"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="vL7-ng-Gc4" id="PEi-UU-Pqd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aDz-1C-K1K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7518" y="-1790"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconCurrentLocation" width="18" height="18"/>
+        <image name="iconFavoriteFilled" width="20" height="18"/>
+        <image name="iconFilter" width="18" height="18"/>
+        <image name="iconOfficeNearMe" width="16" height="12"/>
+        <image name="iconOfficeSelected" width="48" height="32"/>
+        <image name="iconOfficeUnselected" width="48" height="32"/>
+    </resources>
+</document>

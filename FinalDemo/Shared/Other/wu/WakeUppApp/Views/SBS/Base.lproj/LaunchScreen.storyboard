@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wakeup_bg" translatesAutoresizingMaskIntoConstraints="NO" id="LSD-MY-axr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wakeupp_logo" translatesAutoresizingMaskIntoConstraints="NO" id="2U7-oj-Szd">
+                                <rect key="frame" x="37" y="371.33333333333331" width="300" height="70"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2U7-oj-Szd" secondAttribute="trailing" constant="38" id="6Vv-hE-KEq"/>
+                            <constraint firstItem="2U7-oj-Szd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="AR8-Rs-3z6"/>
+                            <constraint firstItem="LSD-MY-axr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="DFg-9Y-M5n"/>
+                            <constraint firstItem="2U7-oj-Szd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="NW1-lq-6cY"/>
+                            <constraint firstItem="LSD-MY-axr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aJW-qU-Arv"/>
+                            <constraint firstAttribute="bottom" secondItem="LSD-MY-axr" secondAttribute="bottom" id="e9Q-Zz-1wm"/>
+                            <constraint firstItem="2U7-oj-Szd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jFB-yf-01H"/>
+                            <constraint firstItem="LSD-MY-axr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="srf-28-ill"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="wakeup_bg" width="360" height="639"/>
+        <image name="wakeupp_logo" width="274" height="70"/>
+    </resources>
+</document>

@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "Contact possible"; ObjectID = "0TT-ph-TS4"; */
+"0TT-ph-TS4.text" = "連絡可能";
+
+/* Class = "UIButton"; normalTitle = "Business begins"; ObjectID = "3V3-r3-qW9"; */
+"3V3-r3-qW9.normalTitle" = "業務開始";
+
+/* Class = "UILabel"; text = "Comment"; ObjectID = "5cZ-Zs-VxS"; */
+"5cZ-Zs-VxS.text" = "コメント";
+
+/* Class = "UIButton"; normalTitle = "Work end"; ObjectID = "ClO-yk-5YP"; */
+"ClO-yk-5YP.normalTitle" = "業務終了";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "HmP-9W-R9Q"; */
+"HmP-9W-R9Q.text" = "ステータス";
+
+/* Class = "UILabel"; text = "Busy"; ObjectID = "JZQ-Nk-6Oo"; */
+"JZQ-Nk-6Oo.text" = "取り込み中";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "So4-d6-veJ"; */
+"So4-d6-veJ.normalTitle" = "更新";
+
+/* Class = "IQTextView"; placeholder = "How are you doing now?"; ObjectID = "UQr-e8-hkM"; */
+"UQr-e8-hkM.placeholder" = "いまどうしてる？";
+
+/* Class = "UITabBarItem"; title = "Time Stamp"; ObjectID = "Z8i-a4-ij7"; */
+"Z8i-a4-ij7.title" = "タイムスタンプ";
+
+/* Class = "UILabel"; text = "Office location"; ObjectID = "bvi-sR-yIp"; */
+"bvi-sR-yIp.text" = "執務場所";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "etR-DU-DFL"; */
+"etR-DU-DFL.normalTitle" = "更新";
+
+/* Class = "UILabel"; text = "Office location\n"; ObjectID = "fsZ-0C-cIt"; */
+"fsZ-0C-cIt.text" = "執務場所";
+
+/* Class = "UILabel"; text = "Temporarily leaving"; ObjectID = "fwq-aM-fRq"; */
+"fwq-aM-fRq.text" = "一時退席中";
+
+/* Class = "UINavigationItem"; title = "Time stamp"; ObjectID = "nKv-9m-R9Q"; */
+"nKv-9m-R9Q.title" = "タイムスタンプ";
+
+/* Class = "UIButton"; normalTitle = "Work end"; ObjectID = "o2Q-SD-rfD"; */
+"o2Q-SD-rfD.normalTitle" = "業務終了";

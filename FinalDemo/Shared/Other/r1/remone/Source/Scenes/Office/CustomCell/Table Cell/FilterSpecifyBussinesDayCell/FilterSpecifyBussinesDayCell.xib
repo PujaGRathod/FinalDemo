@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W3</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FilterSpecifyBussinesDayCell" rowHeight="44" id="KGk-i7-Jjw" customClass="FilterSpecifyBussinesDayCell" customModule="remone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XSY-vE-HUT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="営業日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVy-pF-14a">
+                                <rect key="frame" x="16" y="13" width="42" height="13.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="WvX-Fb-qzZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="平日" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PR1-dK-08l">
+                                <rect key="frame" x="258" y="13" width="28" height="13.5"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                                <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron" translatesAutoresizingMaskIntoConstraints="NO" id="fjK-6E-0az">
+                                <rect key="frame" x="294" y="15" width="10" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="1iP-YQ-Him"/>
+                                    <constraint firstAttribute="height" constant="10" id="sfG-Su-jxO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PR1-dK-08l" firstAttribute="top" secondItem="XSY-vE-HUT" secondAttribute="top" constant="13" id="0R7-jx-MTA"/>
+                            <constraint firstItem="TVy-pF-14a" firstAttribute="leading" secondItem="XSY-vE-HUT" secondAttribute="leading" constant="16" id="44F-Ui-47n"/>
+                            <constraint firstAttribute="bottom" secondItem="PR1-dK-08l" secondAttribute="bottom" constant="17" id="9gJ-vU-mKo"/>
+                            <constraint firstItem="fjK-6E-0az" firstAttribute="leading" secondItem="PR1-dK-08l" secondAttribute="trailing" constant="8" id="Icr-zf-KzH"/>
+                            <constraint firstAttribute="trailing" secondItem="fjK-6E-0az" secondAttribute="trailing" constant="16" id="MhS-A5-t9m"/>
+                            <constraint firstItem="TVy-pF-14a" firstAttribute="top" secondItem="XSY-vE-HUT" secondAttribute="top" constant="13" id="OGX-ju-nDc"/>
+                            <constraint firstItem="PR1-dK-08l" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="TVy-pF-14a" secondAttribute="trailing" constant="10" id="bin-1q-k2q"/>
+                            <constraint firstItem="fjK-6E-0az" firstAttribute="centerY" secondItem="PR1-dK-08l" secondAttribute="centerY" id="wg7-3J-taj"/>
+                            <constraint firstAttribute="bottom" secondItem="TVy-pF-14a" secondAttribute="bottom" constant="17" id="yve-QN-Ymm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="XSY-vE-HUT" secondAttribute="trailing" id="2mN-3p-U2F"/>
+                    <constraint firstItem="XSY-vE-HUT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="5ML-Dw-CSE"/>
+                    <constraint firstAttribute="bottom" secondItem="XSY-vE-HUT" secondAttribute="bottom" id="GTD-xA-37q"/>
+                    <constraint firstItem="XSY-vE-HUT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="bFc-cm-2cv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblSelectedDays" destination="PR1-dK-08l" id="MaP-YH-qu4"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="132"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron" width="10" height="16"/>
+    </resources>
+</document>

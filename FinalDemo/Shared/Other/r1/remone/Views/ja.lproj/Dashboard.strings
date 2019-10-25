@@ -1,0 +1,18 @@
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Stz-ed-v70"; */
+"Stz-ed-v70.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "gL5-yw-VvQ"; */
+"gL5-yw-VvQ.title" = "マイページ";
+
+/* Class = "UITabBarItem"; title = "Office"; ObjectID = "pId-5g-nHs"; */
+"pId-5g-nHs.title" = "オフィス";
+
+/* Class = "UITabBarItem"; title = "People"; ObjectID = "vcM-Lq-Ynx"; */
+"vcM-Lq-Ynx.title" = "人を探す";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "vnL-EP-mIZ"; */
+"vnL-EP-mIZ.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Chat"; ObjectID = "7jy-b3-x3B"; */
+"7jy-b3-x3B.title" = "チャット";

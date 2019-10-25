@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "No information found"; ObjectID = "38g-MR-Th3"; */
+"38g-MR-Th3.text" = "情報が見つかりません";
+
+/* Class = "UIBarButtonItem"; title = "送信"; ObjectID = "48Q-6L-APn"; */
+"48Q-6L-APn.title" = "送信";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Bez-gx-Hbv"; */
+"Bez-gx-Hbv.title" = " ";
+
+/* Class = "UILabel"; text = "報告する内容を入力してください"; ObjectID = "E9u-lr-GI2"; */
+"E9u-lr-GI2.text" = "報告する内容を入力してください";
+
+/* Class = "UINavigationItem"; title = "このオフィスにいるメンバー"; ObjectID = "Ksd-Zv-s3h"; */
+"Ksd-Zv-s3h.title" = "このオフィスにいるメンバー";
+
+/* Class = "UILabel"; text = "オフィス"; ObjectID = "MWp-Ko-mUK"; */
+"MWp-Ko-mUK.text" = "オフィス";
+
+/* Class = "UINavigationItem"; title = "報告する"; ObjectID = "NwA-JC-PRU"; */
+"NwA-JC-PRU.title" = "報告する";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "QLc-16-60D"; */
+"QLc-16-60D.title" = " ";
+
+/* Class = "UILabel"; text = "提携店ではないため、情報が変わる可能性があります。ご了承ください。"; ObjectID = "dYb-k4-TGH"; */
+"dYb-k4-TGH.text" = "提携店ではないため、情報が変わる可能性があります。ご了承ください。";
+
+/* Class = "UIBarButtonItem"; title = "キャンセル"; ObjectID = "ldS-Dj-Vy8"; */
+"ldS-Dj-Vy8.title" = "キャンセル";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "yMd-DP-YEc"; */
+"yMd-DP-YEc.title" = " ";

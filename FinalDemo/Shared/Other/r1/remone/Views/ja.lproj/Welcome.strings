@@ -1,0 +1,116 @@
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "2ML-cO-Kml"; */
+"2ML-cO-Kml.text" = "メールアドレスとパスワード";
+
+/* Class = "UITextField"; placeholder = "position"; ObjectID = "2ix-pN-Vs1"; */
+"2ix-pN-Vs1.placeholder" = "役職";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "4hV-yl-Seg"; */
+"4hV-yl-Seg.title" = "キャンセル";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "66H-RV-0nn"; */
+"66H-RV-0nn.title" = "次へ";
+
+/* Class = "UITextField"; placeholder = "ruby"; ObjectID = "6BX-s3-ZhO"; */
+"6BX-s3-ZhO.placeholder" = "フリカナ";
+
+/* Class = "UINavigationItem"; title = "Personal Settings"; ObjectID = "8Km-6A-psx"; */
+"8Km-6A-psx.title" = "パーソナル設定";
+
+/* Class = "UITextField"; placeholder = "company"; ObjectID = "8l9-Kf-c41"; */
+"8l9-Kf-c41.placeholder" = "会社名";
+
+/* Class = "UITextField"; placeholder = "department"; ObjectID = "9nI-hD-22b"; */
+"9nI-hD-22b.placeholder" = "所属";
+
+/* Class = "UINavigationItem"; title = " "; ObjectID = "EZZ-O1-TBy"; */
+"EZZ-O1-TBy.title" = " ";
+
+/* Class = "UILabel"; text = "Company Information"; ObjectID = "FiU-T3-cMo"; */
+"FiU-T3-cMo.text" = "会社情報";
+
+/* Class = "UINavigationItem"; title = " "; ObjectID = "GBo-3h-gCS"; */
+"GBo-3h-gCS.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Information Disclosure"; ObjectID = "GCa-Yv-FkB"; */
+"GCa-Yv-FkB.title" = "社外への情報公開";
+
+/* Class = "UILabel"; text = "Reset Password"; ObjectID = "HUy-ZL-HOH"; */
+"HUy-ZL-HOH.text" = "パスワードをリセット";
+
+/* Class = "UITextField"; placeholder = "name"; ObjectID = "Hkh-Pw-Xhg"; */
+"Hkh-Pw-Xhg.placeholder" = "名前";
+
+/* Class = "UIBarButtonItem"; title = "Send"; ObjectID = "JjJ-cz-upj"; */
+"JjJ-cz-upj.title" = "送信";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "LFJ-0e-iRl"; */
+"LFJ-0e-iRl.placeholder" = "パスワード";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "N4c-f9-GQ1"; */
+"N4c-f9-GQ1.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "Finish"; ObjectID = "Pj7-ch-jF1"; */
+"Pj7-ch-jF1.title" = "完了";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "Sed-LU-xoQ"; */
+"Sed-LU-xoQ.normalTitle" = "はじめる";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "zo2-5v-HcM"; */
+"zo2-5v-HcM.title" = "閉じる";
+
+/* Class = "UIButton"; normalTitle = "I have not received the e-mail"; ObjectID = "fUS-2N-mo3"; */
+"fUS-2N-mo3.normalTitle" = "メールが届いていません";
+
+
+/* Class = "UILabel"; text = "Name Registration"; ObjectID = "Ss6-3j-tLe"; */
+"Ss6-3j-tLe.text" = "名前";
+
+/* Class = "UILabel"; text = "Confirm Email"; ObjectID = "T1s-0e-3mC"; */
+"T1s-0e-3mC.text" = "Eメール確認";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "WFQ-27-rjk"; */
+"WFQ-27-rjk.placeholder" = "メールアドレス";
+
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "ZoK-9Y-GNF"; */
+"ZoK-9Y-GNF.title" = "次へ";
+
+/* Class = "UILabel"; text = "Let's sharing \"Now\" with memeber"; ObjectID = "a6B-jF-uO5"; */
+"a6B-jF-uO5.text" = "チームメンバーの「いま」を把握しましょう。";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "d0P-rq-8iJ"; */
+"d0P-rq-8iJ.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "eRY-pV-h4M"; */
+"eRY-pV-h4M.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "fr8-ln-y2g"; */
+"fr8-ln-y2g.normalTitle" = "スキップ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "k66-D5-DRt"; */
+"k66-D5-DRt.title" = " ";
+
+/* Class = "UINavigationItem"; title = " "; ObjectID = "lUz-bQ-6ti"; */
+"lUz-bQ-6ti.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "lfe-JC-iq9"; */
+"lfe-JC-iq9.title" = "次へ";
+
+/* Class = "UIButton"; normalTitle = "Did you forget your password?"; ObjectID = "mpk-ws-zqv"; */
+"mpk-ws-zqv.normalTitle" = "暗証番号を忘れました？";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "nVR-bY-pYo"; */
+"nVR-bY-pYo.title" = "キャンセル";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "q6Q-Hz-44F"; */
+"q6Q-Hz-44F.placeholder" = "メールアドレス";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "sQk-zD-bR3"; */
+"sQk-zD-bR3.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "xex-jZ-fwb"; */
+"xex-jZ-fwb.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "yfz-Ku-yQ5"; */
+"yfz-Ku-yQ5.title" = "次へ";

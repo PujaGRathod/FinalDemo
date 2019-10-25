@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W3</string>
+            <string>HiraginoSans-W5</string>
+            <string>HiraginoSans-W6</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RMUserInfoView" customModule="remone" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="iN0-l3-epB" id="RjA-NX-R0E"/>
+                <outlet property="iconLocation" destination="CkP-tl-j9G" id="fB5-de-AvM"/>
+                <outlet property="inhouseIndicatorView" destination="eqH-HU-qlM" id="Pbb-3C-Wam"/>
+                <outlet property="inhouseLabel" destination="jQW-K1-eBk" id="YY1-hp-Mji"/>
+                <outlet property="lblInhouse" destination="jQW-K1-eBk" id="AXQ-6g-Kga"/>
+                <outlet property="locationButton" destination="5fq-wR-0pj" id="wcF-wd-cgb"/>
+                <outlet property="nameLabel" destination="Wc8-hX-gDc" id="BFK-0t-cID"/>
+                <outlet property="timestampView" destination="a4Z-9z-Gtk" id="fms-Cu-ccY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WSS-L5-No5">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lms-Sy-Hd4">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wc8-hX-gDc">
+                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="V8p-3r-2En">
+                                    <rect key="frame" x="0.0" y="58" width="375" height="10"/>
+                                    <subviews>
+                                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eqH-HU-qlM">
+                                            <rect key="frame" x="-6" y="-58" width="54.5" height="10"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" text="In-house" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQW-K1-eBk">
+                                                    <rect key="frame" x="6" y="0.0" width="42.5" height="10"/>
+                                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="10"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="jQW-K1-eBk" firstAttribute="top" secondItem="eqH-HU-qlM" secondAttribute="top" id="2gq-Hr-4nh"/>
+                                                <constraint firstAttribute="trailing" secondItem="jQW-K1-eBk" secondAttribute="trailing" constant="6" id="Upy-pf-NIP"/>
+                                                <constraint firstAttribute="bottom" secondItem="jQW-K1-eBk" secondAttribute="bottom" id="XSY-iD-1Vp"/>
+                                                <constraint firstItem="jQW-K1-eBk" firstAttribute="leading" secondItem="eqH-HU-qlM" secondAttribute="leading" constant="6" id="ddW-Vd-cxg"/>
+                                            </constraints>
+                                        </view>
+                                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4Z-9z-Gtk" customClass="RMUserTimestampView" customModule="remone" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="-58" width="0.0" height="10"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="R2y-Ps-Ou7"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="V8p-3r-2En" secondAttribute="trailing" id="5gq-ch-i43"/>
+                                <constraint firstItem="Wc8-hX-gDc" firstAttribute="leading" secondItem="Lms-Sy-Hd4" secondAttribute="leading" id="Gue-Te-CGe"/>
+                                <constraint firstItem="V8p-3r-2En" firstAttribute="leading" secondItem="Wc8-hX-gDc" secondAttribute="trailing" id="Pwr-v9-yPp"/>
+                                <constraint firstItem="V8p-3r-2En" firstAttribute="top" secondItem="Lms-Sy-Hd4" secondAttribute="top" constant="58" id="gkK-2c-5Fu"/>
+                                <constraint firstItem="Wc8-hX-gDc" firstAttribute="top" secondItem="Lms-Sy-Hd4" secondAttribute="top" id="qOe-9J-e1E"/>
+                                <constraint firstAttribute="bottom" secondItem="Wc8-hX-gDc" secondAttribute="bottom" id="tQl-Ar-I1s"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ieM-fZ-xVy">
+                            <rect key="frame" x="0.0" y="10" width="375" height="59"/>
+                            <subviews>
+                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconLocationPin" translatesAutoresizingMaskIntoConstraints="NO" id="CkP-tl-j9G">
+                                    <rect key="frame" x="0.0" y="-4" width="12" height="12"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="CkP-tl-j9G" secondAttribute="height" id="H9r-Xj-Ti0"/>
+                                        <constraint firstAttribute="width" constant="12" id="aTa-IS-WLK"/>
+                                    </constraints>
+                                </imageView>
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fq-wR-0pj">
+                                    <rect key="frame" x="0.0" y="-10" width="0.0" height="24"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="12" id="Q7A-Of-bZS"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HiraginoSans-W5" family="Hiragino Sans" pointSize="12"/>
+                                    <state key="normal">
+                                        <color key="titleColor" red="0.050980392159999999" green="0.2470588235" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="Q7A-Of-bZS"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="onLocationTap:" destination="-1" eventType="touchUpInside" id="BcY-MS-R09"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WSS-L5-No5" secondAttribute="trailing" id="KFb-Rz-vpo"/>
+                <constraint firstItem="WSS-L5-No5" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="TVh-sK-1a1"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="WSS-L5-No5" secondAttribute="bottom" id="mXM-3F-NGX"/>
+                <constraint firstItem="WSS-L5-No5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="u3B-Pp-dcB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-17" y="-31"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iconLocationPin" width="25" height="34"/>
+    </resources>
+</document>

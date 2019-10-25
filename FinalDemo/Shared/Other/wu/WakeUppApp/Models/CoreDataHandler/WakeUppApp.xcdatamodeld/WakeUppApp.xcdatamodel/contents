@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CD_BoardcastMessages" representedClassName=".CD_BoardcastMessages" syncable="YES">
+        <attribute name="broadcastListID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createddate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isdeleted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isread" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediasize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messagetype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="platform" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="receiverid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textmessage" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CD_BroadcastList" representedClassName=".CD_BroadcastList" syncable="YES">
+        <attribute name="broadcastListID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ispinned" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMediaURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessageDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessageId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessageType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberNames" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberPhotos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="members" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CD_CallHistory" representedClassName=".CD_CallHistory" syncable="YES">
+        <attribute name="call_from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="call_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="call_to" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_video_call" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isseen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CD_Friends" representedClassName=".CD_Friends" syncable="YES">
+        <attribute name="about_privacy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="blocked_contacts" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chatid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countrycode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createddate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_online" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isdeleted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ishidden" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ispinned" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isread" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_login" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastseen_privacy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messagetype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="muted_by_me" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phonenumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo_privacy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="platform" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="read_receipts_privacy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="receiverid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status_privacy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textmessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unreadCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CD_GroupMessages" representedClassName=".CD_GroupMessages" syncable="YES">
+        <attribute name="countrycode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createddate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isdeleted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isread" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isstarred" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediasize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messagetype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parent_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phonenumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="platform" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="receiverid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textmessage" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CD_Groups" representedClassName=".CD_Groups" syncable="YES">
+        <attribute name="admins" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdby" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="edit_permission" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="group_id" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="sync.isPrimaryKey" value="true"/>
+            </userInfo>
+        </attribute>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isalladmin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isdelete" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ishidden" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ispinned" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMediaURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessageDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessageId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessageReceiverIds" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessageSenderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessageType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="members" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msg_permission" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="muted_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unreadCount" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CD_Messages" representedClassName=".CD_Messages" syncable="YES">
+        <attribute name="chatid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createddate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_online" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isdeleted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isread" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isstarred" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_login" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediasize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messagetype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="platform" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="readtime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="receiverid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="receivetime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textmessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CD_Stories" representedClassName=".CD_Stories" syncable="YES">
+        <attribute name="allowcopy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="caption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countrycode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isViewedByMe" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="markedusers" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusprivacy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusviewprivacy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storyID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storyType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CD_Stories_Viewers" representedClassName=".CD_Stories_Viewers" syncable="YES">
+        <attribute name="countryCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storyID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CD_BoardcastMessages" positionX="-162" positionY="144" width="128" height="240"/>
+        <element name="CD_BroadcastList" positionX="-180" positionY="126" width="128" height="210"/>
+        <element name="CD_CallHistory" positionX="-180" positionY="126" width="128" height="180"/>
+        <element name="CD_Friends" positionX="-180" positionY="-0" width="128" height="30"/>
+        <element name="CD_GroupMessages" positionX="214" positionY="186" width="128" height="300"/>
+        <element name="CD_Groups" positionX="-29" positionY="54" width="128" height="360"/>
+        <element name="CD_Messages" positionX="-378" positionY="-15" width="128" height="375"/>
+        <element name="CD_Stories" positionX="-180" positionY="126" width="128" height="285"/>
+        <element name="CD_Stories_Viewers" positionX="-162" positionY="144" width="128" height="150"/>
+    </elements>
+</model>
