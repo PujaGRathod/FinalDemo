@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.9.0)
+  - IHProgressHUD (0.1.5)
+  - SDWebImage (5.2.3):
+    - SDWebImage/Core (= 5.2.3)
+  - SDWebImage/Core (5.2.3)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - IHProgressHUD (from `https://github.com/Swiftify-Corp/IHProgressHUD.git`)
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SDWebImage
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  IHProgressHUD:
+    :git: https://github.com/Swiftify-Corp/IHProgressHUD.git
+
+CHECKOUT OPTIONS:
+  IHProgressHUD:
+    :commit: 894be798eb94e2b0b23806e50f6571407710b015
+    :git: https://github.com/Swiftify-Corp/IHProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  IHProgressHUD: 55de0cd62cd65832e0d0047324ab0ca59d0bba11
+  SDWebImage: 46a7f73228f84ce80990c786e4372cf4db5875ce
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 2fcdf51a6f6982fcd6066b0f5241a5cee3fdff71
+
+COCOAPODS: 1.8.4
